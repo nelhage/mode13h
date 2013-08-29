@@ -1,0 +1,21 @@
+Image1:	128sin(25sin(y*PI/180)+x)+128
+
+Image2:	128sin(25sin(y*PI/180)+x)+128 or 128sin(25sin(x*PI/180)+y)+128	
+
+Image3:	128sin(25sin(y*PI/180)+x)+128 xor 128sin(25sin(x*PI/180)+y)+128	
+
+Image4:	128sin(25sin(y*PI/180)+x)+128 and 128sin(25sin(x*PI/180)+y)+128	
+
+
+Image5:	128cos((x+50cos(y*PI/180)+25sin(y*PI/180))*PI/180) + 128
+
+Image6:	128cos((x+50cos(y*PI/180)+25sin(y*PI/180))*PI/180) + 128 or
+	128cos((x+50cos(y*PI/180)+25sin(y*PI/180))*PI/180) + 128	
+
+Image7:	128cos((x+50cos(y*PI/180)+25sin(y*PI/180))*PI/180) + 128 xor
+	128cos((x+50cos(y*PI/180)+25sin(y*PI/180))*PI/180) + 128	
+
+Image8: 128cos((x+50cos(y*PI/180)+25sin(y*PI/180))*PI/180) + 128 and
+	128cos((x+50cos(y*PI/180)+25sin(y*PI/180))*PI/180) + 128
+
+* or, and, and xor are bitwise operators
